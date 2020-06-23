@@ -6,7 +6,11 @@
   
   $(document).ready(function(){
 $('a').attr('target','_blank');
+// force PDF Files to open in new window
+    $('a[href$=".pdf"]').attr('target', '_blank');
   });
+  
+  
   
  </script>
 
@@ -19,7 +23,22 @@ p{
   margin-top: 1.3rem;
   }
   
+h3 {
+    margin-top: 2rem;
+} 
+
+h2 {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+} 
+
+h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+}  
+
 </style>
+
 
 
 
